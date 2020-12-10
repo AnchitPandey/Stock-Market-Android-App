@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- parent="Base.Theme.AppCompat.Light.DarkActionBar" -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="HeaderBar">
+        <!-- Customize your theme here. -->
+        <!-- <item name="android:background">@color/white</item> -->
+        <!-- <item name= "android:searchHintIcon">@drawable/search_button</item> -->
+        <item name ="android:hint"> @string/search_hint</item>
+
+    </style>
+
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+        <!-- Optional, on Android 5+ you can modify the colorPrimaryDark color to match the windowBackground color for further branding-->
+        <!-- <item name="colorPrimaryDark">@android:color/white</item> -->
+    </style>
+
+</resources>
